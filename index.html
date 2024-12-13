@@ -1,0 +1,55 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="#info">Info</a>
+            <a href="#source">Sources</a>
+        </div>
+        <div class="nav-brand">
+            <span class="bold">Race, Medicine, & Incarceration</span> — Inhumane: prison labor in the South
+        </div>
+    </nav>
+
+    <div class="image-container">
+        <img src="./asset/ESSAY1.png" 
+             id="zoomable-image" 
+             alt="Zoomable Image">
+    </div>
+    <div id="sidebar" class="sidebar">
+        <div class="scroll-shadow-top"></div>
+        <div class="sidebar-content">
+            <h2>Information</h2>
+            <p>Our project explores the enduring legacy of the 13th Amendment, which abolished slavery "except as a punishment for crime," and its transformation into what we recognize today as our justice system. Through our photo gallery titled "Prison Labor in the South," we aim to shed light on the emotional, psychological, and physical toll of incarceration on marginalized populations, particularly within the Southern United States. This gallery combines historical photographs, investigative journalism, and personal accounts to reveal how systems of oppression have evolved rather than disappeared.</p>
+            <p>Although the abolition of slavery marked a turning point in American history, the loophole within the 13th Amendment was used to excuse the continuation of forced labor and exploitation of primarily Black individuals. The prison system became a legal system of racialized oppression. Incarcerated individuals were forced into performing uncompensated labor, subjected to medical neglect, and relegated to inhumane living conditions, leaving many hopeless.</p>
+            <p>Through imagery and storytelling narratives, our gallery seeks to evoke the emotional weight of these experiences. Photographs depict prisoners enduring physical torment, medical neglect, and labor reminiscent of plantation slavery, while accompanying narratives highlight the systemic failures that dehumanize and exploit incarcerated individuals.</p>
+            <p>By showcasing this visual and historical narrative, we hope to foster a deeper understanding of how the carceral system functions as a modern extension of slavery. Our goal is not only to hold a space of undivided compassion to honor the resilience of those who endured these atrocities but also to provoke personal critical reflection and advocacy for systemic change. The gallery serves as a reminder that true abolition requires more than just reforming an exploitative system—it demands creating structures focused on care, rehabilitation, and providing the resources necessary for justice and dignity for all Americans.</p>
+            <h2 id="sources-section">Sources</h2>
+            <p>Chammah, Maurice. "Prison Plantations." The Marshall Project (New York, NY), May 1, 2015. https://www.themarshallproject.org</p>
+            <p>McCormick, Harry. "Prison Labor Beautifying Nine Texas State Parks." Dallas Morning News (Dallas, TX), May 3, 1964. https://www.infoweb.newsbank.com</p>
+            <p>Hartman, Ben. "My Grandfather Was a Death Row Doctor. He Tested Psychedelic Drugs on Texas Inmates." Texas Tribune (Austin, TX), July 5, 2017. https://www.texasstandard.org</p>
+            <p>Lee, Josephine and Pritcher, Michelle. "Texas Plantation Prisons: Inside a 200-Year History of Forced Labor Shrouded in Secrecy." Texas Observer (Austin, TX), July 23, 2024. https://www.texasstandard.org</p>
+            <p>Moore, Walter B. "Texas Biggest, Best Farmer in Prison." Dallas Morning News (Dallas, TX), January 23, 1969. https://www.infoweb.newsbank.com</p>
+            <p>Mulligan, Tom. "Prison Farm Operation Produces $4,583,600." Dallas Morning News (Dallas, TX), December 23, 1962. https://www.infoweb.newsbank.com</p>
+            <p>Quinlan, Maggie. "Plantations to Prison Farms: How Far Have We Come?" Austin Chronicle (Austin, TX), June 14, 2024. https://www.austinchronicle.com</p>
+            <p>Spivak, John L. [Torture Techniques as Described by Wardens, J.D. Williams and C.H. Wheatley, Sumter County, Georgia], 1931. Harry Ransom Center</p>
+        </div>
+        <div class="scroll-shadow-bottom"></div>
+    </div>
+    <div id="overlay" class="overlay"></div>
+    <script src="https://unpkg.com/@panzoom/panzoom/dist/panzoom.min.js"></script>
+    <script src="script.js"></script>
+    <div id="zoom-hint" class="zoom-hint">
+        <div class="zoom-icon">🔍</div>
+        <div class="zoom-text">Scroll to zoom</div>
+    </div>
+</body>
+</html>
