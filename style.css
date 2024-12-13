@@ -82,7 +82,7 @@
     background: white;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     z-index: 1001;
-    transition: left 0.3s ease;
+    transition: left 0.7s ease;
     overflow: hidden;
     border-radius: 8px; /* Rounded corners */
     margin-left: 5%; /* Space from left edge */

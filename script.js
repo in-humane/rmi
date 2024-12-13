@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const sourcesSection = document.getElementById('sources-section');
             setTimeout(() => {
                 sourcesSection.scrollIntoView({ behavior: 'smooth' });
-            }, 300); // Wait for sidebar animation to complete
+            }, 600); // Wait for sidebar animation to complete
         } else {
             sidebar.querySelector('.sidebar-content').scrollTop = 0;
         }
